@@ -1,0 +1,131 @@
+
+@font-face {
+    src: url(Almarai-Bold.ttf);
+    font-family:joe;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+body{
+    background: #adb4dbda;
+    
+}
+
+
+.container{
+    max-width: 300px;
+    min-width: 300px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 14px 14px 14px 14px;
+    max-height: 800px;
+    height: 550px;
+    min-height: 270px;
+    margin: 6% 40%;
+    overflow-y: hidden;
+    font-family: joe;
+}
+
+.contain{
+    padding: 1.2rem;
+    color: cornsilk;
+}
+
+.im{
+    /* width: max(370px, 10%); */
+   
+} 
+     .big{
+        border-radius: 11px 11px 0 0;
+        max-width: 100%;
+        display: block;
+    }
+
+    h1{
+        font-size: 28px;
+        padding: 0.9rem;
+        color: black;
+        
+        
+    }
+    h5{
+        color: black;
+        font-weight: bolder;
+    }
+    .grey{
+        color: #b9b5b5;
+        font-size: 13px;
+    }
+.light{
+    background: #e7eff1e3;;
+    display: flex;
+    width: 240px;
+    height: 74px;
+    border-radius: 8px;
+    justify-content: space-between;
+    
+
+}
+.no{
+    width: 43px;
+    height: 44px;
+    margin: 15px 0 0 10px;
+
+}
+
+
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+
+}
+.justy{
+    line-height: 22px;
+    width: 222px;
+    color: #b9b8b8;
+    font-size: 13px;
+    text-align: center;
+}
+
+.tu{
+    align-self: center;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    
+}
+
+.change-me{
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #f7f1f1;
+    background: rgb(36, 19, 196);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.3);
+
+}
+
+.down-link{
+    margin-top: 19px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #b9b8b8;
+}
